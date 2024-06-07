@@ -12,7 +12,7 @@
 
 # Factorial Definition
 # factorial, in mathematics, the product of all positive integers less than or equal to a given positive integer
-#symbol for factorial is n! where n is number chosen
+#symbol for factorial is n! where n is number chosen. Factorial of 0 is 1 
 
 
 def main():
