@@ -24,7 +24,7 @@ def main():
        print("Entered number must be greater than 0")
     else:
        print("Fibonacci sequence", amt, "numbers long:")
-       for item in range(amt): #ex if amt is 3, range is 0, 1, 2 -> just a note for future me 
+       for item in range(amt): 
            print(fibonacci(item), end=' ')
        
        
