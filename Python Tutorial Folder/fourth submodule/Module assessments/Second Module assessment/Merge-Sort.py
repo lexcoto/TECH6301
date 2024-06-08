@@ -25,7 +25,7 @@ def main():
             sort(half1)
             sort(half2)
             item1=item2=x=0       
-            while item1 < len(half1) and item2 < len(half2): #stops when both are full length
+            while item1 < len(half1) and item2 < len(half2): 
                 if half1[item1] < half2[item2]:
                     ls[x]=half1[item1]
                     item1=item1+1
