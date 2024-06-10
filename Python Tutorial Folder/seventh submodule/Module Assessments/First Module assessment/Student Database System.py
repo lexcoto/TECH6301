@@ -29,14 +29,12 @@ class Student:
         self.grades = float(input("Please enter the Student grade by precent calculated above:")) #ideally I wouldve wanted the user to be able to 
                                                                                                 #input the grades and total here directly but couldnt 
                                                                                                 #get it to work so did grade calculator separate
-        
-    
-       
+
         Student.stuCount += 1
         
         
     
-    # displayStudent method of class Student 
+     
     def description(self): 
 
         print(f"Student: {self.name}. They are {self.age} years old. Their average grade is: {self.grades} ")
