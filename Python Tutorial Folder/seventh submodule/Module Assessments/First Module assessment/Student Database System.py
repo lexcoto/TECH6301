@@ -26,7 +26,7 @@ class Student:
         
         self.age = int(input("Please enter the students age:"))
         
-        self.grades = int(input("Please enter the Student grade by precent calculated above:")) #ideally I wouldve wanted the user to be able to 
+        self.grades = float(input("Please enter the Student grade by precent calculated above:")) #ideally I wouldve wanted the user to be able to 
                                                                                                 #input the grades and total here directly but couldnt 
                                                                                                 #get it to work so did grade calculator separate
         
